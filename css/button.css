@@ -1,0 +1,20 @@
+.login_button{
+    font-size: 15px;
+    height: 30px;
+    width : 60px;
+    border: none;
+    background: none;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .login_button:before {
+    height: 0%;
+    width: 2px;
+  }
+  .login_button:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(174, 182, 193, 0.5), 
+                inset -4px -4px 6px 0 rgba(255,255,255,.2),
+                inset 4px 4px 6px 0 rgba(72, 72, 72, 0.4);
+      
+  }

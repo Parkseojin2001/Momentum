@@ -1,0 +1,27 @@
+#login-form{
+    position: display;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#todo-form{
+  position: display;
+  text-align: center;
+}
+input{
+    font-size: 18px;
+    width: 300px;
+    border: none;
+    border-bottom: solid black 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: none;
+  }
+
+  input::placeholder{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps slashed-zero;
+  }
