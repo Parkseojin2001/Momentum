@@ -6,6 +6,7 @@
     background: none;
     font-style: italic;
     font-weight: bold;
+    color:whitesmoke;
   }
   .login_button:before {
     height: 0%;
@@ -17,4 +18,9 @@
                 inset -4px -4px 6px 0 rgba(255,255,255,.2),
                 inset 4px 4px 6px 0 rgba(72, 72, 72, 0.4);
       
+  }
+  .todo-button{
+    background: none;
+    padding-left: 11px;
+    border: none;
   }

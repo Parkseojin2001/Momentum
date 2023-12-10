@@ -1,27 +1,31 @@
 #login-form{
-    position: display;
+    position: relative;
+    top:300px;
+    left: 25px;
     text-align: center;
     border-top: none;
     border-left: none;
     border-right: none;
 }
 #todo-form{
-  position: display;
+  position: relative;
+  top: 120px;
   text-align: center;
 }
 input{
     font-size: 18px;
     width: 300px;
     border: none;
-    border-bottom: solid black 2px;
+    border-bottom: solid whitesmoke 2px;
     padding-top: 5px;
     padding-bottom: 5px;
     background: none;
+    color:aliceblue;
   }
 
   input::placeholder{
-    color: black;
-    font-weight: bold;
+    color: whitesmoke;
+    font-weight: 700;
     font-style: italic;
     font-variant: small-caps slashed-zero;
   }

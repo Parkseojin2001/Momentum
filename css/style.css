@@ -11,36 +11,63 @@ img{
     top: 0px;
     bottom: 0px;
     z-index: -1;
-    opacity: 50%;
+    opacity: 100%;
+}
+
+#weather{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-style: italic;
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight :800;
 }
 
 #clock{
-    position: display;
+    position: relative;
+    top: 80px;
     text-align: center;
     font-family: system-ui;
-    font-size: 40px;
-    font-weight : lighter;
+    font-size: 70px;
+    font-weight : bold;
+    color: whitesmoke;
 }
 
 #quote{
     position: fixed;
     right: 20px;
     bottom:10px;
-
 }
 #greeting{
-    position: display;
+    position: relative;
     text-align: center;
     font-family: cursive;
-    font-size: 55px
+    font-size: 55px;
+    top:30px;
+    color:azure;
 }
 
 .quote_font{
     font-family: cursive;
     font-weight : bold;
     font-size: 20px;
+    color: whitesmoke;
 }
 
+ul{
+    position:relative;
+    text-align: center;
+    list-style-type: none;
+    top:130px;
+    left:-20px;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight:800;
+}
+li{
+    padding-top: 6px;
+    padding-bottom: 6px;
 
-  
+}
  
